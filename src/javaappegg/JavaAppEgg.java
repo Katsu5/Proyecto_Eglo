@@ -1,20 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package javaappegg;
 
-/**
- *
- * @author susa0
- */
+
 public class JavaAppEgg {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner suma = new Scanner (System.in);
+        int num1, num2, result;
+        
+        System.out.print("Digite 2 numeros: ");
+        num1 = suma.nextint();
+        num2 = suma.nextint();
+        
+        result = num1 + num2;
+        System.out.printin(suma);
     }
     
 }
